@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Josh Oxenham</title>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    </head>
+    <body onload="loadProjects()">
+        <div id="header">
+            <p>Josh Oxenham</p>
+        </div>
+
+        <div id="about" class="content">
+            <p>
+                Welcome. I am a hobbyist software programmer and a computer science student at the University of Exeter. Alongside my university education, I have programmed independently and collaboratively for over 10 years. I have gained a
+                 wide range of capabilities including knowledge of OO concepts with practical experience in C#, Java and Python. This website you're looking at right now was built by me from scratch utilizing a full stack knowledge of web technologies.
+            </p>
+        </div>
+
+        <div id="projects" class="content">
+            <h1><span>Projects</span></h1>
+            <div id="project-list">
+                
+            </div>
+        </div>
+
+        <div id="contact" class="content">
+            <h1>Contact</h1>
+            <div class="contact-form">
+                <form id="contact-form" action="contact.php" align=center method="POST">
+                    <input type="text" id="contact-name" name="contact-name" placeholder="Name">
+                    <br />
+                    <input type="text" id="contact-email" name="contact-email" placeholder="Email address">
+                    <br />
+                    <textarea id="contact-message" name="contact-message" form="contact-form" placeholder="Message"></textarea>
+                    <br />
+                    <br />
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
