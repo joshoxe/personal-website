@@ -17,7 +17,7 @@ function loadProjects() {
         getCommitCount(commitUrl, projectName);
     }
 
-    xhttp.open("GET", "https://api.github.com/users/joshoxe/repos", true);
+    xhttp.open("GET", "https://api.github.com/users/joshoxe/repos?sort=updated", true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send();
 }
